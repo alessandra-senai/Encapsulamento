@@ -16,6 +16,7 @@ namespace BibliotecaClasses
         public Funcionario(string nome, string funcao, decimal salario)
         {
             SetMatricula();
+            this.nome = nome;
             this.funcao = funcao;
             this.salario = salario;
         }

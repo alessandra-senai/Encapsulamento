@@ -7,6 +7,9 @@ namespace ProjetoConsole
     {
         static void Main(string[] args)
         {
+            
+
+
             Funcionario funcionario = new Funcionario("José Silva", "Diretor", 16453.45M);
 
             Console.WriteLine("------------- FUNCIONÁRIO --------------");
